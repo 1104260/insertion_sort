@@ -1,6 +1,4 @@
 void main(List<String> args) {
-  int i = 0;
-  print("my name is Zero ${i}");
   List<int> numbers = [5, 2, 4, 6, 1, 3];
   printList(numbers);
   numbers = insertionSort(numbers);
